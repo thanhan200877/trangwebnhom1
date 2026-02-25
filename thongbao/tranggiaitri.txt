@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html
+<head>
+    <meta charset="UTF-8">
+    <title>Thông Báo Tin Học</title>
+    <style>
+	  /* ===== ĐẦU TRANG ===== */
+        header { display: flex; align-items: center;  padding: 20px; background: #800020; color: white;}
+
+        header img {width: 80px;margin-right: 20px;border-radius: 10px;}
+
+        /* ===== MENU ===== */
+        nav {display: flex;justify-content: center;gap: 20px;padding: 15px;background: #ececec;}
+
+        nav a img {width: 80px;border-radius: 10px;}
+		
+		nav a img:hover { transform: translateY(-8px) scale(1.02);transition: 0.5s;}
+		
+        /* ===== NỘI DUNG ===== */
+
+       
+		
+		H3, h1 {color: #800020;}
+		
+		
+		 /* ===== CHÂN TRANG ===== */
+        footer { display: flex; align-items: center;  padding: 20px; background: #800020; color: white;}
+
+        footer img {width: 80px;margin-right: 20px;border-radius: 10px;}
+    </style>
+</head>
+<body>
+<!-- ĐẦU TRANG -->
+    <header>
+        <img src="anh/home.jpg">
+        <h1>Nhóm 1</h1>
+    </header>
+
+    <!-- MENU -->
+    <nav>
+        <a href="file:///D:/web/...html"TRANG CHỦ>
+            <img src="anh/home.jpg" TRANG CHỦ>
+        </a>	
+        <a href="file:///D:/web/tv/trangthanhvien.html" THÀNH VIÊN>
+            <img src="anh/thanhvien.jpg"THÀNH VIÊN>
+        </a>
+        <a href="file:///D:/web/kienthuc/trangkienthuc.html"KIẾN THỨC>
+            <img src="anh/kienthuc.jpg" KIẾN THỨC>
+        </a>
+        <a href="trang3.html">
+            <img src="anh/nhac.jpg" NHẠC>
+        </a>
+        <a href="file:///D:/web/thongbao/trangthongbao.html"THÔNG BÁO>
+            <img src="anh/thongbao.jpg" THÔNG BÁO>
+        </a>
+        <a href="file:///D:/web/lienhe/tranglienhe.html">
+            <img src="anh/lienhe.jpg" LIÊN HỆ>
+        </a>
+        <a href="trang3.html">
+            <img src="anh/code.jpg" MẪU>
+        </a>
+    </nav>
+
+    <!-- NỘI DUNG -->
